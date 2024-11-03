@@ -15,3 +15,6 @@ bazzarTk *= 2;
 console.log(bazzarTk);
 
 
+var tkOne = 10;
+var totalSum = 3;
+console.log(tkOne % totalSum);

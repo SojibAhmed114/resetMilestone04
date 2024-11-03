@@ -9,3 +9,6 @@ console.log(typeof orangePrice);
 
 const totalTk = sinthiaTk + orangePrice;
 console.log(totalTk);
+
+
+
