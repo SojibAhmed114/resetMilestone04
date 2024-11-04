@@ -17,3 +17,22 @@ else {
     console.log(money);
     
 }
+
+// more js 
+
+let age = 11;
+let price = 500;
+
+if (age <= 12){
+    console.log('you can buy food for me because you are a child');
+}
+
+else if (age >= 60){
+    // 50% discount 
+    const discount = price *50/100;
+    const payAmount = price - discount;
+    console.log(payAmount);
+}
+else {
+    console.log(price);
+}
