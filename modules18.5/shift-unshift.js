@@ -10,5 +10,5 @@ console.log(myShift);
 //array unshift
 // unshift means Inserts new elements at the start of an array
 let arrayUnshift = [45,46,47,48,49,44];
-arrayUnshift.unshift(500);
+arrayUnshift.unshift(500Inserts new elements at the start of an array);
 console.log(arrayUnshift);
