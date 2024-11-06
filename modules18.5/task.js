@@ -32,3 +32,8 @@ console.log(Array.isArray(moneyTwo));
 console.log(Array.isArray(pots));
 
 
+// task Five 
+let country1 = ['bangladesh', 'India', 'china'];
+let country2 = ['USA', 'saudi arabia', ];
+let country = country1.concat(country2);
+console.log(country);
