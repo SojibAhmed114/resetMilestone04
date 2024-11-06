@@ -16,3 +16,19 @@ place.push('Pabna');
 place.push('Bogra', 'RAjshahi');
 place.pop();
 console.log(place);
+
+
+//task Three
+let bookName = ['bangal', 'english', 'mathematics'];
+let chkekBook = bookName.includes('javascript');
+console.log(chkekBook);
+
+//task Four 
+let money = [];
+let moneyTwo =[14,15,26,36];
+var pots = 'hi';
+console.log(Array.isArray(money));
+console.log(Array.isArray(moneyTwo));
+console.log(Array.isArray(pots));
+
+
