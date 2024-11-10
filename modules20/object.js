@@ -9,6 +9,13 @@ let bottle = {
     }
 }
 
+//create object using keyword
+const createObj = new Object();
+createObj.fatherName ='abdus salmam';
+createObj.motherName = 'jarifa begum';
+console.log(createObj);
+//-----------------
+
 // object properties access system 
 // dot notation: variableName + dot + propertiesName [ata kom use kora hobe karon onek somoy access pauya jay na]
 console.log(bottle.brand);
