@@ -21,7 +21,7 @@ for (i=0; i< numbers.length; i++){
 }
 console.log(addReversArry);
 
-// looping revers side
+// decremental loop
 const setReversArray =[];
 const myArray = [100,200,300,400,500,600,700,800,900];
 for (let x = myArray.length -1; x > 0; x-- ){
