@@ -27,3 +27,22 @@ function add (numOne, numTwo){
 }
 add(10,10);
 
+
+// some thing
+function jora (typeOne){
+    const joras = typeOne * 2;
+    console.log(joras);
+}
+
+const inputs = 20;
+jora(inputs); 
+
+
+//different
+function diff (fatherAge , sonAge){
+    const age = fatherAge - sonAge;
+    console.log(age);
+}
+const faAge = 10;
+const soAge = 8;
+diff(faAge, soAge);
