@@ -46,3 +46,24 @@ function diff (fatherAge , sonAge){
 const faAge = 10;
 const soAge = 8;
 diff(faAge, soAge);
+
+
+// return
+function outputReturn (paraMeterOne){
+    const checks = paraMeterOne + 10;
+    return checks;
+}
+
+outputReturn(10);
+
+
+//full function with using return
+
+function price (valuesOne, valuesTwo){
+    const sum = valuesOne + valuesTwo;
+    const diff = sum / 2;
+    return diff; 
+}
+
+const myResult = price(20,50);
+console.log(myResult);
