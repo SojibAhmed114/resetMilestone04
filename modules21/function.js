@@ -61,8 +61,7 @@ outputReturn(10);
 
 function price (valuesOne, valuesTwo){
     const sum = valuesOne + valuesTwo;
-    const diff = sum / 2;
-    return diff; 
+    return sum / 2;
 }
 
 const myResult = price(20,50);
