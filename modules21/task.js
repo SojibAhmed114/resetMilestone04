@@ -39,3 +39,14 @@ function makeAvg (inputs){
 const sentInput = [15,48,56,59,54,21,100,24,58];
 const avg = makeAvg(sentInput);
 console.log(avg);
+
+
+// task four 
+function count_zero(getStr){
+    let checks = getStr.split('0').length -1;
+    return checks;  
+}
+
+const str = '1001100111010000';
+const output = count_zero(str);
+console.log(output);
