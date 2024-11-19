@@ -22,3 +22,20 @@ function double (number){
 
 let nums = double (3);
 console.log('hi',nums);
+
+
+//task three 
+function makeAvg (inputs){
+    let sum = 0;
+    for (let n = 0; n < inputs.length; n++){
+        const stores = inputs[n];
+        sum += stores;
+    }
+
+    const myAvg = sum / inputs.length;
+    return myAvg;
+}
+
+const sentInput = [15,48,56,59,54,21,100,24,58];
+const avg = makeAvg(sentInput);
+console.log(avg);
