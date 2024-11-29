@@ -28,6 +28,9 @@ function calculator(x, y, calculation) {
     else if (calculation === "division") {
         return division(x,y);
     }
+    else{
+        return 'bokacoda';
+    }
 }
 
 console.log(calculator(4,4, 'multiple'));
