@@ -23,5 +23,28 @@ console.log(discountedPrice(201));
 
 //layered Discount
 function layeredDiscount(Quantity) {
-    
+    const first100Price = 100;
+    const second100Price = 90;
+    const above200Price = 80;
+
+    if (Quantity <= 100) {
+        const total = Quantity * first100Price;
+        return total;
+    }
+    else if (Quantity <= 200){
+        const first100TotalPrice = 100 * first100Price;
+        const remainingQuantity = Quantity - 100;
+        const remainingTotalPrice = remainingQuantity * second100Price;
+        const total = remainingTotalPrice + first100TotalPrice;
+        return total;
+    }
+    else {
+        const first100PriceTotal = first100Price * 100;
+        const second100TotalPrice = second100Price * 100;
+        const remainingQuantity = Quantity - 200;
+        const remainingTotal = remainingQuantity * above200Price;
+        const total = remainingTotal +  first100PriceTotal + second100TotalPrice;
+        return total;
+    }
 }
+console.log(layeredDiscount(201));
